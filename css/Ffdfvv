@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Program1_2
+{
+public static void main(String[] args) {
+Scanner cs=new Scanner(System.in);
+System.out.println("Enter the Number:");
+int num=cs.nextInt();
+System.out.println("Square root of"+num+" is : "+Math.sqrt(num));
+cs.close();
+    }
+}
